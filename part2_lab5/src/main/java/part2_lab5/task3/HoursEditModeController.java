@@ -71,7 +71,7 @@ public class HoursEditModeController implements Initializable{
         if (logger != null) {
             logger.info("The Edit mode window of the table \"Hours\" is initialized");
         } else {
-            Logger logger = LogManager.getLogger(HoursEditModeController.class.getSimpleName());
+            Logger logger = LogManager.getLogger(HoursEditModeController.class);
             HoursEditModeController.setLogger(logger);
         }
     }

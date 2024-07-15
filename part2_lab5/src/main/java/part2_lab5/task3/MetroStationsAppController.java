@@ -88,7 +88,7 @@ public class MetroStationsAppController implements Initializable {
         if (logger != null) {
             logger.info("Metro Stations Application main window is initialized");
         } else {
-            Logger logger = LogManager.getLogger(MetroStationsAppController.class.getSimpleName());
+            Logger logger = LogManager.getLogger(MetroStationsAppController.class);
             MetroStationsAppController.setLogger(logger);
         }
     }

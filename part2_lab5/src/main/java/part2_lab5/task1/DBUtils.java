@@ -314,7 +314,7 @@ public class DBUtils {
             if (logger != null) {
                 logger.info("Database connection established");
             } else {
-                Logger logger = LogManager.getLogger(DBUtils.class.getSimpleName());
+                Logger logger = LogManager.getLogger(DBUtils.class);
                 DBUtils.setLogger(logger);
             }
         } catch (SQLException e) {

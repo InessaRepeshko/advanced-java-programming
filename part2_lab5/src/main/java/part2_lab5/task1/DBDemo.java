@@ -14,9 +14,34 @@ import static part2_lab5.task1.DBUtils.*;
  * It handles data related to metro stations and their operational hours.
  */
 public class DBDemo {
-    public static Logger logger = LogManager.getLogger(MetroStationsApp.class.getSimpleName());
     private static final String METROSTATIONS_FILE = "src/main/resources/part2_lab5/task1/MetroStations.json";
     private static final String METROSTATIONSFORDB_FILE = "src/main/resources/part2_lab5/task1/MetroStationsFromDB.json";
+    public static Logger logger = determineLogger();
+
+    /**
+     * Determines and returns an appropriate logger based on the package of the calling class.
+     * If the calling class belongs to "applications.database_console_application" package,
+     * returns a logger configured for that package.
+     * If it belongs to "applications.database_gui_application" package,
+     * returns a logger configured for that package.
+     * Otherwise, returns the root logger.
+     * @return Logger instance based on the package of the calling class.
+     */
+    public static Logger determineLogger() {
+        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+
+        for (StackTraceElement element : stackTrace) {
+            String className = element.getClassName();
+
+            if (className.startsWith("part2_lab5.task1")) {
+                return LogManager.getLogger("part2_lab5.task1");
+            } else if (className.startsWith("part2_lab5.task3")) {
+                return LogManager.getLogger("part2_lab5.task3");
+            }
+        }
+
+        return LogManager.getRootLogger();
+    }
 
     /**
      * Creates a {@link MetroStations} object and populates it with sample data for demonstration purposes.

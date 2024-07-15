@@ -68,7 +68,7 @@ public class MetroStationsEditModeController implements Initializable{
         if (logger != null) {
             logger.info("The Edit mode window of the table \"Metro Stations\" is initialized");
         } else {
-            Logger logger = LogManager.getLogger(MetroStationsEditModeController.class.getSimpleName());
+            Logger logger = LogManager.getLogger(MetroStationsEditModeController.class);
             MetroStationsEditModeController.setLogger(logger);
         }
     }

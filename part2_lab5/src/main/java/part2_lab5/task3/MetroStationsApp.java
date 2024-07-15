@@ -19,7 +19,7 @@ public class MetroStationsApp extends Application {
     /**
      * Logger for logging application events.
      */
-    public static Logger logger = LogManager.getLogger(MetroStationsApp.class.getSimpleName());
+    public static Logger logger = LogManager.getLogger(MetroStationsApp.class);
 
     /**
      * The main entry point for JavaFX application.
