@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="part2_lab4.task_control.StringConcatenatorController">
+   <center>
+      <AnchorPane prefHeight="300.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="22.0" text="First string:" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="15.0" />
+            <TextField fx:id="textFieldString1" prefHeight="22.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="37.0" />
+            <Label prefHeight="22.0" text="Second string:" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="69.0" />
+            <TextField fx:id="textFieldString2" prefHeight="22.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="91.0" />
+            <Button fx:id="buttonConcatenate" mnemonicParsing="false" onAction="#concatenateStrings" prefHeight="22.0" text="Concatenate strings" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="133.0" />
+            <Label prefHeight="22.0" text="Result:" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="165.0" />
+            <TextArea fx:id="textAreaResult" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="187.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

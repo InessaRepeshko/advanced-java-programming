@@ -1,0 +1,21 @@
+<academicGroup>
+  <groupNumber>CS-222a</groupNumber>
+  <studentList>
+    <student>
+      <fullName>Blits Anna</fullName>
+      <ratingScore>90.0</ratingScore>
+    </student>
+    <student>
+      <fullName>Chizh Alexander</fullName>
+      <ratingScore>92.3</ratingScore>
+    </student>
+    <student>
+      <fullName>Ermolov Vladislav</fullName>
+      <ratingScore>89.7</ratingScore>
+    </student>
+    <student>
+      <fullName>Khorunzhii Tetiana</fullName>
+      <ratingScore>95.02</ratingScore>
+    </student>
+  </studentList>
+</academicGroup>

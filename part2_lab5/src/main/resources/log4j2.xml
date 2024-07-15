@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+<!--     for task 1:-->
+<!--        <File name="FileAppender" fileName="src/main/resources/part2_lab5/task1/MetroStationsApp-${date:yyyy-MM-dd}.log" immediateFlush="true" append="true">-->
+<!--     for task 3:-->
+        <File name="FileAppender" fileName="src/main/resources/part2_lab5/task3/MetroStationsApp-${date:yyyy-MM-dd}.log" immediateFlush="true" append="true">
+        <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

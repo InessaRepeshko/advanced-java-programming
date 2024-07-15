@@ -1,0 +1,21 @@
+{"academicGroup": {
+  "groupNumber": "CS-222a",
+  "studentList": [
+    {
+      "fullName": "Blits Anna",
+      "ratingScore": 90.0
+    },
+    {
+      "fullName": "Chizh Alexander",
+      "ratingScore": 92.3
+    },
+    {
+      "fullName": "Ermolov Vladislav",
+      "ratingScore": 89.7
+    },
+    {
+      "fullName": "Khorunzhii Tetiana",
+      "ratingScore": 95.02
+    }
+  ]
+}}

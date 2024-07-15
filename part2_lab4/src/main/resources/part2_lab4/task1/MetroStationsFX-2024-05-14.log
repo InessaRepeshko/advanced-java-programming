@@ -1,0 +1,113 @@
+2024-05-14 21:50:41.257 [main] MetroStationsFX - Application opened
+2024-05-14 21:50:41.380 [JavaFX Application Thread] MetroStationsFX - Initialisation
+2024-05-14 21:53:34.946 [JavaFX Application Thread] MetroStationsFX - New file created
+2024-05-14 21:53:49.867 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:53:49.868 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 21:54:09.653 [main] MetroStationsFX - Application opened
+2024-05-14 21:54:09.781 [JavaFX Application Thread] MetroStationsFX - Initialisation
+2024-05-14 21:55:15.346 [JavaFX Application Thread] MetroStationsFX - New file created
+2024-05-14 21:55:23.980 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:55:23.981 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 21:55:28.122 [JavaFX Application Thread] MetroStationsFX - Hour ridership updated to "200"
+2024-05-14 21:55:35.133 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "Minimal ridership"
+2024-05-14 21:55:37.761 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:55:37.762 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 21:55:40.898 [JavaFX Application Thread] MetroStationsFX - Hour ridership updated to "1000"
+2024-05-14 21:55:47.857 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "Very high ridership"
+2024-05-14 21:55:50.741 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:55:50.741 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 21:55:52.836 [JavaFX Application Thread] MetroStationsFX - Hour ridership updated to "100"
+2024-05-14 21:55:58.136 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "Low ridership"
+2024-05-14 21:56:01.225 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:56:01.226 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 21:56:03.208 [JavaFX Application Thread] MetroStationsFX - Hour ridership updated to "1"
+2024-05-14 21:56:05.782 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "Test"
+2024-05-14 21:56:07.940 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:56:07.940 [JavaFX Application Thread] MetroStationsFX - Last row removed from the table
+2024-05-14 21:56:09.790 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 21:56:09.794 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:56:09.795 [JavaFX Application Thread] MetroStationsFX - Hours sorted by decreasing ridership
+2024-05-14 21:56:11.779 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 21:56:11.781 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 21:56:11.781 [JavaFX Application Thread] MetroStationsFX - Hours sorted by descending comment length
+2024-05-14 22:00:43.502 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:00:43.506 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:00:43.506 [JavaFX Application Thread] MetroStationsFX - Hours sorted by decreasing ridership
+2024-05-14 22:00:45.016 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:00:45.017 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:00:45.018 [JavaFX Application Thread] MetroStationsFX - Hours sorted by descending comment length
+2024-05-14 22:00:47.332 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:00:47.333 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:00:47.333 [JavaFX Application Thread] MetroStationsFX - Hours sorted by decreasing ridership
+2024-05-14 22:00:49.185 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:00:49.186 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:00:49.186 [JavaFX Application Thread] MetroStationsFX - Hours sorted by descending comment length
+2024-05-14 22:01:20.781 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "High ridership"
+2024-05-14 22:01:28.895 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "The lowest ridership"
+2024-05-14 22:01:48.201 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:01:48.202 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 22:01:51.233 [JavaFX Application Thread] MetroStationsFX - Hour ridership updated to "250"
+2024-05-14 22:01:59.670 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "Medium ridership"
+2024-05-14 22:02:04.954 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "Medium ridership"
+2024-05-14 22:02:11.734 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:02:11.735 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 22:02:19.005 [JavaFX Application Thread] MetroStationsFX - Hour ridership updated to "400"
+2024-05-14 22:02:23.931 [JavaFX Application Thread] MetroStationsFX - Hour ridership updated to "700"
+2024-05-14 22:02:32.411 [JavaFX Application Thread] MetroStationsFX - Hour comment updated to "High ridership"
+2024-05-14 22:02:34.819 [JavaFX Application Thread] MetroStationsFX - Metro Station name updated
+2024-05-14 22:04:20.017 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:04:20.023 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:04:20.023 [JavaFX Application Thread] MetroStationsFX - Hours sorted by decreasing ridership
+2024-05-14 22:05:19.550 [JavaFX Application Thread] MetroStationsFX - Deserializing from XML
+2024-05-14 22:05:19.720 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:05:19.720 [JavaFX Application Thread] MetroStationsFX - XML file opened
+2024-05-14 22:09:58.485 [JavaFX Application Thread] MetroStationsFX - Deserializing from XML
+2024-05-14 22:09:58.507 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:09:58.507 [JavaFX Application Thread] MetroStationsFX - XML file opened
+2024-05-14 22:14:48.557 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:14:48.561 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:14:48.562 [JavaFX Application Thread] MetroStationsFX - Hours sorted by decreasing ridership
+2024-05-14 22:15:10.773 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:15:10.776 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:15:10.776 [JavaFX Application Thread] MetroStationsFX - Hours sorted by descending comment length
+2024-05-14 22:15:20.324 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:15:20.328 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:15:20.329 [JavaFX Application Thread] MetroStationsFX - Hours sorted by decreasing ridership
+2024-05-14 22:15:56.759 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:15:56.764 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:15:56.764 [JavaFX Application Thread] MetroStationsFX - Hours sorted by descending comment length
+2024-05-14 22:18:34.371 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:18:34.389 [JavaFX Application Thread] MetroStationsFX - Search for Hours by word
+2024-05-14 22:18:42.580 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:18:42.581 [JavaFX Application Thread] MetroStationsFX - Search for Hours by word
+2024-05-14 22:18:43.184 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:18:43.185 [JavaFX Application Thread] MetroStationsFX - Search for Hours by word
+2024-05-14 22:19:07.388 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:19:07.393 [JavaFX Application Thread] MetroStationsFX - Search for Hours by substring
+2024-05-14 22:19:36.578 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:19:36.586 [JavaFX Application Thread] MetroStationsFX - Search for Hours by minimal ridership
+2024-05-14 22:19:53.137 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:19:53.139 [JavaFX Application Thread] MetroStationsFX - Search for Hours by minimal ridership
+2024-05-14 22:20:07.930 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:20:07.947 [JavaFX Application Thread] MetroStationsFX - Search for Hours by maximum word count of comment
+2024-05-14 22:20:42.495 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:20:42.496 [JavaFX Application Thread] MetroStationsFX - New row added to the table
+2024-05-14 22:22:10.954 [JavaFX Application Thread] MetroStationsFX - Table with Hours updated
+2024-05-14 22:22:10.956 [JavaFX Application Thread] MetroStationsFX - Last row removed from the table
+2024-05-14 22:24:08.737 [JavaFX Application Thread] MetroStationsFX - About program shows
+2024-05-14 22:25:51.645 [JavaFX Application Thread] MetroStationsFX - Source data updated for Hours of Metro Station
+2024-05-14 22:25:51.646 [JavaFX Application Thread] MetroStationsFX - Metro Station name updated
+2024-05-14 22:25:51.646 [JavaFX Application Thread] MetroStationsFX - Metro Station opened year updated
+2024-05-14 22:25:51.646 [JavaFX Application Thread] MetroStationsFX - Serializing to XML
+2024-05-14 22:27:14.689 [JavaFX Application Thread] MetroStationsFX - About program shows
+2024-05-14 22:28:50.946 [JavaFX Application Thread] MetroStationsFX - Application closed
+2024-05-14 22:50:24.123 [main] MetroStationsFX - Application opened
+2024-05-14 22:50:24.249 [JavaFX Application Thread] MetroStationsFX - Initialisation
+2024-05-14 22:50:41.302 [JavaFX Application Thread] MetroStationsFX - Deserializing from XML
+2024-05-14 22:50:41.405 [JavaFX Application Thread] MetroStationsFX - com.thoughtworks.xstream.mapper.CannotResolveClassException: project
+2024-05-14 22:50:44.807 [JavaFX Application Thread] MetroStationsFX - Invalid XML file format
+com.thoughtworks.xstream.mapper.CannotResolveClassException: project
+2024-05-14 22:51:50.124 [JavaFX Application Thread] MetroStationsFX - Deserializing from XML
+2024-05-14 22:51:50.132 [JavaFX Application Thread] MetroStationsFX - com.thoughtworks.xstream.io.StreamException: 
+2024-05-14 23:00:45.417 [JavaFX Application Thread] MetroStationsFX - Invalid XML file format
+com.thoughtworks.xstream.io.StreamException: 

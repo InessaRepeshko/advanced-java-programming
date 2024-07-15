@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="part2_lab6.task2.PrimeFactorizationAppController">
+   <center>
+        <AnchorPane prefHeight="500.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="25.0" text="Range of long numbers [ from; to]:" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+                <TextField fx:id="textFieldRangeFrom" onAction="#rangeFromUpdated" prefHeight="25.0" promptText="from" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="255.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldRangeTo" onAction="#rangeToUpdated" prefHeight="25.0" promptText="to" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <Button fx:id="buttonStart" mnemonicParsing="false" onAction="#startClicked" prefHeight="25.0" text="Start" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="80.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="buttonPause" minWidth="150.0" mnemonicParsing="false" onAction="#pauseClicked" prefHeight="25.0" text="Pause" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="120.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="buttonResume" minWidth="150.0" mnemonicParsing="false" onAction="#resumeClicked" prefHeight="25.0" text="Resume" AnchorPane.leftAnchor="175.0" AnchorPane.topAnchor="120.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="buttonFinish" minWidth="150.0" mnemonicParsing="false" onAction="#finishClicked" prefHeight="25.0" text="Finish" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="120.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Label prefHeight="25.0" text="Results:" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="160.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <ProgressBar fx:id="progressBar" prefWidth="470.0" progress="0.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="185.0" />
+                <TextArea fx:id="textAreaResults" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="210.0" />
+            </children>
+        </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="part2_lab6.task1.FunctionGrapherAppController">
+    <center>
+        <AnchorPane prefHeight="800.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="25.0" text="Enter real values for a and b:" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+                <TextField fx:id="textFieldConstantA" onAction="#constantAUpdated" prefHeight="25.0" promptText="a" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="310.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldConstantB" onAction="#constantBUpdated" prefHeight="25.0" promptText="b" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <Label layoutX="10.0" layoutY="10.0" prefHeight="25.0" text="Enter functions f(x) and g(x):" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="75.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+                <TextField fx:id="textFieldFunctionF" layoutX="10.0" layoutY="10.0" onAction="#functionFUpdated" prefHeight="25.0" promptText="f(x)" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="310.0" AnchorPane.topAnchor="100.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldFunctionG" layoutX="10.0" layoutY="10.0" onAction="#functionGUpdated" prefHeight="25.0" promptText="g(x)" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="100.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <Label layoutX="20.0" layoutY="20.0" prefHeight="25.0" text="Enter graph display range [ from; to]:" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="216.0" AnchorPane.topAnchor="135.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+                <TextField fx:id="textFieldRangeFrom" layoutX="20.0" layoutY="20.0" onAction="#rangeFromUpdated" prefHeight="25.0" promptText="from" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="410.0" AnchorPane.topAnchor="160.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldRangeTo" layoutX="20.0" layoutY="20.0" onAction="#rangeToUpdated" prefHeight="25.0" promptText="to" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="160.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <TextField fx:id="textFieldRangeStep" layoutX="30.0" layoutY="30.0" onAction="#rangeStepUpdated" prefHeight="25.0" promptText="step" AnchorPane.leftAnchor="410.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="160.0">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+                <Button fx:id="buttonBuildGraph" minWidth="150.0" mnemonicParsing="false" onAction="#buildGraphClicked" prefHeight="25.0" text="Build graph" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="410.0" AnchorPane.topAnchor="200.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Button fx:id="buttonClearGraph" minWidth="150.0" mnemonicParsing="false" onAction="#clearGraphClicked" prefHeight="25.0" text="Clear graph" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="200.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Button fx:id="buttonClearFields" minWidth="150.0" mnemonicParsing="false" onAction="#clearFieldsClicked" prefHeight="25.0" text="Clear fields" AnchorPane.leftAnchor="410.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="200.0">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <LineChart fx:id="graphChart" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="250.0">
+                    <xAxis>
+                        <NumberAxis fx:id="numberAxisX" side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis fx:id="numberAxisY" side="LEFT" />
+                    </yAxis>
+                </LineChart>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

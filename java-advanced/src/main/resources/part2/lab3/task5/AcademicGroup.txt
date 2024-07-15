@@ -1,0 +1,6 @@
+The group number:	CS-222a.
+The student list:
+	Full name: 	"Blits Anna";	Rating score:	90.0.
+	Full name: 	"Chizh Alexander";	Rating score:	92.3.
+	Full name: 	"Ermolov Vladislav";	Rating score:	89.7.
+	Full name: 	"Khorunzhii Tetiana";	Rating score:	95.02.

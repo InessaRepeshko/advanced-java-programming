@@ -1,0 +1,23 @@
+2024-06-07 18:07:43.416 [main] MetroStationsApp - Program started
+2024-06-07 18:07:43.418 [main] MetroStationsApp - Export from JSON file
+2024-06-07 18:07:43.513 [main] MetroStationsApp - Import from JSON file
+2024-06-07 18:07:43.699 [main] MetroStationsApp - Database connection established
+2024-06-07 18:07:43.699 [main] MetroStationsApp - Database created
+2024-06-07 18:07:43.827 [main] MetroStationsApp - Export from JSON file
+2024-06-07 18:07:43.831 [main] MetroStationsApp - Database connection closed
+2024-06-07 18:07:43.833 [main] MetroStationsApp - Program closed
+2024-06-07 18:07:58.373 [main] MetroStationsApp - Application opened
+2024-06-07 18:07:58.665 [JavaFX Application Thread] MetroStationsApp - Database connection established
+2024-06-07 18:07:58.665 [JavaFX Application Thread] MetroStationsApp - Database created
+2024-06-07 18:07:58.699 [JavaFX Application Thread] MetroStationsApp - Metro Stations Application main window is initialized
+2024-06-07 18:08:17.241 [JavaFX Application Thread] MetroStationsApp - New file created in application
+2024-06-07 18:08:21.566 [JavaFX Application Thread] MetroStationsApp - Database connection closed
+2024-06-07 18:08:21.575 [JavaFX Application Thread] MetroStationsApp - Application closed
+2024-06-07 18:10:50.813 [main] MetroStationsApp - Program started
+2024-06-07 18:10:50.816 [main] MetroStationsApp - Export from JSON file
+2024-06-07 18:10:50.998 [main] MetroStationsApp - Import from JSON file
+2024-06-07 18:10:51.205 [main] MetroStationsApp - Database connection established
+2024-06-07 18:10:51.205 [main] MetroStationsApp - Database created
+2024-06-07 18:10:51.339 [main] MetroStationsApp - Export from JSON file
+2024-06-07 18:10:51.343 [main] MetroStationsApp - Database connection closed
+2024-06-07 18:10:51.346 [main] MetroStationsApp - Program closed
